@@ -1,0 +1,23 @@
+{
+  "vehicle": {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "XLE AWD",
+    "mileage": 54800,
+    "zip": "19103"
+  },
+  "insurerOffer": 25400,
+  "comparables": [
+    { "id": "PP-101", "source": "Dealer demo", "year": 2021, "trim": "XLE AWD", "mileage": 51200, "price": 29850, "distanceMiles": 18 },
+    { "id": "PP-102", "source": "Marketplace demo", "year": 2021, "trim": "XLE AWD", "mileage": 58900, "price": 28400, "distanceMiles": 31 },
+    { "id": "PP-103", "source": "Dealer demo", "year": 2022, "trim": "XLE AWD", "mileage": 60300, "price": 30100, "distanceMiles": 42 },
+    { "id": "PP-104", "source": "Marketplace demo", "year": 2020, "trim": "Limited AWD", "mileage": 48700, "price": 30750, "distanceMiles": 57 }
+  ],
+  "adjustments": {
+    "mileageDollarsPerMile": 0.08,
+    "yearDollars": 900,
+    "trim": { "XLE AWD": 0, "Limited AWD": -1700 }
+  },
+  "disclaimer": "Fictional demonstration data. Not an appraisal, legal advice, or an insurer-submission-ready report."
+}
