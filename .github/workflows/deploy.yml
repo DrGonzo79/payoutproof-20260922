@@ -39,6 +39,8 @@ jobs:
       - run: uv run pytest
         working-directory: api
       - run: npm run build
+        env:
+          PAGES_BUILD: "true"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
